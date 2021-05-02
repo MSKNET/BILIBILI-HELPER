@@ -5,7 +5,7 @@ name: AUTO_TASK_FOR_BILIBILI
 
 on:
   push:
-    branches: main
+    branches: backup
   workflow_dispatch:
   schedule:
     - cron: '10 0 * * *'
